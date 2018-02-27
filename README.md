@@ -41,7 +41,7 @@ auto QuasiList<char>() {
 }
 ```
 
-`class quasi-template` doesn't seem to be useful, except probably one case - when it is used with lambda function:
+`class quasi-template` doesn't seem to be useful, except probably in one case - when it is used with lambda function:
 
 ```C++
 void Foo() {
