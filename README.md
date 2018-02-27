@@ -27,7 +27,8 @@ List<int> list1 = {1, 2, 3};
 List<str::string> list2 = {"1", "2", "3}; 
 ```
 
-`class quasi-template` can have explicit (full) specialization (bellow), but cannot have partial specialization and cannot have template functions.
+`class quasi-template` cannot have partial specialization and cannot have template functions,<br/>
+but can have explicit (full) specialization:
 
 ```C++
 template <>
@@ -39,8 +40,8 @@ auto QuasiList<char>() {
 }
 ```
 
-
-`class quasi-template` doesn't seem to be useful, but there is probably one case where it could be usefull - when it is used with lambda function:
+`class quasi-template` doesn't seem to be useful.<br/> 
+But there is probably one case where it could be usefull - when it is used with lambda function:
 
 ```C++
 void Foo() {
