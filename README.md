@@ -9,7 +9,7 @@ since it is very similar to `class template` but is not exactly the same, it is 
 
 ```C++
 template <typename T>
-auto QuasiX() {
+auto QuasiList() {
    struct: public std::vector<T> {
      using std::vector<T>::vector;
    }* p = 0;
@@ -18,16 +18,17 @@ auto QuasiX() {
 }
 
 template <typename T>
-using X = decltype(QuasiX<T>());
+using List = decltype(QuasiList<T>());
 
-X<int> x = {1, 2, 3};
+List<int> list1 = {1, 2, 3};
+List<str::string> list2 = {"1", "2", "3}; 
 ```
 
 `class quasi-template` can have explicit (full) specialization (bellow), but cannot have partial specialization and cannot have template functions.
 
 ```C++
 template <>
-auto QuasiX<char>() {
+auto QuasiList<char>() {
    struct {
    }* p = 0;
 
@@ -40,7 +41,7 @@ auto QuasiX<char>() {
 
 ```C++
 void Foo() {
-  auto X = [](auto par) {
+  auto List = [](auto par) {
     uinsg T = decltype(par);
 
     struct: public vector<T> {
@@ -52,9 +53,9 @@ void Foo() {
 
   // Local "class quasi-template" can be instantiated with different types.
 
-  decltype(X(int())) x1 = {1, 2, 3};
+  decltype(List(int())) list1 = {1, 2, 3};
 
-  decltype(X(std::string())) x1 = {"1", "2", "3");
+  decltype(List(std::string())) list2 = {"1", "2", "3");
 }
 ```
 
