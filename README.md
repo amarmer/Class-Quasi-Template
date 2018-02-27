@@ -2,7 +2,7 @@ Wikipedia definition of `class template` - "A class template provides a specific
 
 Syntax: ```C++ template <parameter-list> class-declaration.```
 
-Here is described another type of `class` which fits definition from Wikepedia and 
+Here is described another type of `class` which fits definition from Wikipedia and 
 since it is very similar to `class template` but is not exactly the same, it is called `class quasi-template`.
 
 `class quasi-template` is described bellow.
