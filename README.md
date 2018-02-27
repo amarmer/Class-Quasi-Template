@@ -1,4 +1,4 @@
-Wikepedia definition of `class template` - "A class template provides a specification for generating classes based on parameters."
+Wikipedia definition of `class template` - "A class template provides a specification for generating classes based on parameters."
 
 Syntax: ```C++ template <parameter-list> class-declaration.```
 
