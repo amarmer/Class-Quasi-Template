@@ -1,6 +1,6 @@
 ## class quasi-template
 
-Bellow is definition of `class template` from Wikipedia.
+Bellow is definition of `class template` from Wikipedia.<br/>
 ```A class template provides a specification for generating classes based on parameters.```
 
 Here is described another type of `class` which fits this definition and since it is similar to `class template` 
