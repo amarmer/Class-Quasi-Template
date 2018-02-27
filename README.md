@@ -1,10 +1,11 @@
+
 # Class quasi-template
 
 Bellow is definition of `class template` from Wikipedia:<br/>
 ```A class template provides a specification for generating classes based on parameters.```
 
 Here is described another type of `class` which fits this definition and since it is similar to `class template` 
-but is not exactly the same (and doesn't have syntax ```template <parameter-list> class-declaration```), it is called `class quasi-template`.
+but is not exactly the same (and doesn't have it's syntax ```template <parameter-list> class-declaration```), it is called `class quasi-template`.
 
 `class quasi-template` is described bellow.
 
