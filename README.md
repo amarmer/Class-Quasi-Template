@@ -1,4 +1,4 @@
-#### `Class quasi-template` is very similar to `class template`, but it's syntax is different
+### A new type of class - `class quasi-template`
 
 Wikipedia definition of `class template` - "A class template provides a specification for generating classes based on parameters."
 
