@@ -62,6 +62,7 @@ void Foo() {
 }
 ```
 
-While it is not possible to use local `class template`, it is possible to use local `class quasi-template`, which sometimes could be usefull.
+While it is not possible to use local `class template`, it is possible to use local `class quasi-template`,<br/>
+which sometimes could be usefull.
 
 
