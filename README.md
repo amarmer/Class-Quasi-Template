@@ -11,7 +11,7 @@ but is not exactly the same (and doesn't have syntax ```template <parameter-list
 ```C++
 template <typename T>
 auto QuasiList() {
-   // This is 'class quasi-template'.
+   // This is example of 'class quasi-template'.
    struct: public std::vector<T> {
      using std::vector<T>::vector;
    }* p = 0;
