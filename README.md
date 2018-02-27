@@ -1,3 +1,4 @@
+
 ## class quasi-template
 
 Wikipedia definition of `class template` - "A class template provides a specification for generating classes based on parameters."
@@ -21,6 +22,7 @@ auto QuasiList() {
 template <typename T>
 using List = decltype(QuasiList<T>());
 
+// 'class quasi-template' can be used exactly as 'class template'.
 List<int> list1 = {1, 2, 3};
 List<str::string> list2 = {"1", "2", "3}; 
 ```
