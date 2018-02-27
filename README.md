@@ -10,6 +10,7 @@ but is not exactly the same, it is called `class quasi-template`.
 ```C++
 template <typename T>
 auto QuasiList() {
+   // This is 'class quasi-template'
    struct: public std::vector<T> {
      using std::vector<T>::vector;
    }* p = 0;
