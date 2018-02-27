@@ -45,7 +45,7 @@ auto QuasiList<char>() {
 ```C++
 void Foo() {
   auto List = [](auto par) {
-    uinsg T = decltype(par);
+    using T = decltype(par);
 
     struct: public vector<T> {
        using std::vector<T>::vector;
