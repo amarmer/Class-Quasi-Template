@@ -59,7 +59,7 @@ void Foo() {
 
   decltype(List(int())) list1 = {1, 2, 3};
 
-  decltype(List(std::string())) list2 = {"1", "2", "3");
+  decltype(List(std::string())) list2 = {"1", "2", "3"};
 }
 ```
 
