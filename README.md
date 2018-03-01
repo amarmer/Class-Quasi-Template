@@ -48,7 +48,7 @@ void Foo() {
   auto List = [](auto par) {
     using T = decltype(par);
 
-    struct: public vector<T> {
+    struct: public std::vector<T> {
        using std::vector<T>::vector;
     }* p = 0;
 
